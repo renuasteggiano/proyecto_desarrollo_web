@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/iconos/favicon.PNG">
+    <title>Bikini Symil</title>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="../pages/shop.html">
+                    <img class="menu_icono" src="../assets/img/iconos/menu.PNG" alt="Menu">
+                    </a>
+                    <ul class="menu_lista">
+                        <li><a class="menu_lista_item" href="../pages/shop.html">Ver todo</a></li>
+                        <li><a class="menu_lista_item" href="../pages/shop_bikinis.html">Bikinis</a></li>
+                        <li><a class="menu_lista_item" href="../pages/shop_enterizas.html">Enterizas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="menu3">
+            <a class="menu3_titulo" href="../index.html">Float</a>
+        </div>
+        <div class="menu2">
+            <a href="../pages/deseos.html">
+                <img class="menu2_icono" src="../assets/img/iconos/deseos.PNG" alt="Lista de deseos">
+            </a>
+            <a href="../pages/mifloat.html">
+                <img class="menu2_icono" src="../assets/img/iconos/mifloat.PNG" alt="Cuenta">
+            </a>
+            <a href="../pages/carrito.html">
+                <img class="menu2_icono" src="../assets/img/iconos/carrito.PNG" alt="Carrito">
+            </a>
+        </div>
+    </nav>
+    <header></header>
+    <main class="producto">
+        <div class="producto_img">
+            <img src="../assets/img/fotosrectangulares/bikinisymilroja1.jpg" alt="Bikini Symil">
+            <!--<img src="../assets/img/fotosrectangulares/bikinisymilroja2.jpg" alt="Bikini Symil">
+            <img src="../assets/img/fotosrectangulares/bikinisymilnegra1.jpg" alt="Bikini Symil">
+            <img src="../assets/img/fotosrectangulares/bikinisymilnegra2.jpg" alt="Bikini Symil">-->
+        </div>
+        <div class="producto_info">
+            <h1 class="producto_info_nombre">Bikini Symil</h1>
+            <h2 class="producto_info_precio">$8.000</h2>
+            <form action="">
+                <div class="producto_info_color">
+                    <h2 class="producto_info_color_titulo">Color</h2>
+                    <label for="rojo"><img class="producto_info_color_circulo" src="../assets/img/colores/rojo.PNG" alt="Rojo"</label>
+                    <input class="producto_info_color_btn" type="radio" name="color" id="rojo" value="rojo">
+                    <label for="negro"><img class="producto_info_color_circulo" src="../assets/img/colores/negro.PNG" alt="Negro"></label>
+                    <input class="producto_info_color_btn" type="radio" name="color" id="negro" value="negro">
+                </div>
+                <div class="producto_info_talles">
+                    <h2 class="producto_info_talles_titulo">Talles</h2>
+                    <select class="producto_info_talles_btn" name="talles">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <input class="producto_info_agregar" type="submit" value="Agregar al carrito">
+            </form>
+            <h2 class="producto_info_cp_titulo">Calcular costo de envío:</h2>
+            <form action="">
+                <input class="producto_info_cp_caja" type="text" name="cp" placeholder="Código postal">
+            </form>
+            <h2 class="producto_info_desc_titulo">Descripción:</h2>
+            <table class="producto_info_desc_tabla">
+                <tr>
+                    <td class="producto_info_desc_tabla_fila1">Talles</td>
+                    <td class="producto_info_desc_tabla_fila1">1</td>
+                    <td class="producto_info_desc_tabla_fila1">2</td>
+                    <td class="producto_info_desc_tabla_fila1">3</td>
+                    <td class="producto_info_desc_tabla_fila1">4</td>
+                    <td class="producto_info_desc_tabla_fila1">5</td>
+                </tr>
+                <tr>
+                    <td>Taza</td>
+                    <td>85/90</td>
+                    <td>90/95</td>
+                    <td>95/100</td>
+                    <td>100/105</td>
+                    <td>105/110</td>
+                </tr>
+                <tr>
+                    <td>Contorno de busto (cm)</td>
+                    <td>78-85</td>
+                    <td>86-90</td>
+                    <td>91-95</td>
+                    <td>96-100</td>
+                    <td>101-105</td>
+                </tr>
+                <tr>
+                    <td>Contorno de bajo busto (cm)</td>
+                    <td>66-71</td>
+                    <td>70-73</td>
+                    <td>73-76</td>
+                    <td>76-79</td>
+                    <td>79-82</td>
+                </tr>
+                <tr>
+                    <td>Contorno de cadera (cm)</td>
+                    <td>82-90</td>
+                    <td>90-98</td>
+                    <td>98-106</td>
+                    <td>106-115</td>
+                    <td>115-125</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <aside></aside>
+    <footer>
+        <hr>
+        <div class="footer">
+            <h1 class="footer_titulo">Contacto</h1>
+            <div class="footer_contacto">
+                <img class="footer_contacto_fotoTel" src="../assets/img/iconos/telefono.PNG" alt="Teléfono">
+                <a class="footer_contacto_tel" href="tel:+01165661907">011 4687-0947</a>
+                <p class="footer_contacto_barra">/</p>
+                <a class="footer_contacto_mail" href="mailto:ayuda@float.com">ayuda@float.com</a>
+            </div>
+            <div class="footer_redes">
+                <a href="https://www.facebook.com">
+                    <img class="footer_redes_fb" src="../assets/img/iconos/facebook.PNG" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/float.ba/">
+                    <img class="footer_redes_ig" src="../assets/img/iconos/instagram.PNG" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
